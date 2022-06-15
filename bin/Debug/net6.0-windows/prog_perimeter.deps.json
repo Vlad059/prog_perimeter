@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "prog_perimeter/1.0.0": {
+        "dependencies": {
+          "Corel.Interop.CorelDRAW": "17.1.0.572",
+          "Corel.Interop.VGCore": "17.1.0.572"
+        },
+        "runtime": {
+          "prog_perimeter.dll": {}
+        }
+      },
+      "Corel.Interop.CorelDRAW/17.1.0.572": {
+        "runtime": {
+          "Corel.Interop.CorelDRAW.dll": {
+            "assemblyVersion": "17.1.0.572",
+            "fileVersion": "17.1.0.572"
+          }
+        }
+      },
+      "Corel.Interop.VGCore/17.1.0.572": {
+        "runtime": {
+          "Corel.Interop.VGCore.dll": {
+            "assemblyVersion": "17.1.0.572",
+            "fileVersion": "17.1.0.572"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "prog_perimeter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Corel.Interop.CorelDRAW/17.1.0.572": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Corel.Interop.VGCore/17.1.0.572": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

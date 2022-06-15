@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+     <Reference Include="CoralDRAW">
+       <HintPath>C:\Program Files\Corel\CorelDRAW Graphics Suite X7\Programs64\Assemblies\Corel.Interop.CorelDRAW.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Reference Include="VGCore">
+       <HintPath>C:\Program Files\Corel\CorelDRAW Graphics Suite X7\Programs64\Assemblies\Corel.Interop.VGCore.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+</Project>
